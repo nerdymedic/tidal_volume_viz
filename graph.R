@@ -1,5 +1,6 @@
 library(tidyverse)
 
+
 data <- seq(58, 78, 1) %>% 
   tibble() %>% 
   select("height" = 1) %>% 
